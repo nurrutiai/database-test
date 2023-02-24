@@ -1,0 +1,4 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+name: scoring-pipeline-reprove-r
+image: rocker/tidyverse:4.0.4
+description: Environment created from a Docker image.
