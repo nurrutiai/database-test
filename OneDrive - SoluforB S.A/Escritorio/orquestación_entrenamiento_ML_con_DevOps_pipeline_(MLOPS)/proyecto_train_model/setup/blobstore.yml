@@ -1,8 +1,0 @@
-$schema: https://azuremlschemas.azureedge.net/latest/azureBlob.schema.json
-name: blob_azureml
-type: azure_blob
-description: Datastore pointing to a blob container.
-account_name: '$env(STORAGE_ACCOUNT)'
-container_name: sandbox-azureml
-credentials:
-  account_key: '$env(STORAGE_KEY)'
